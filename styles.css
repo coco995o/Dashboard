@@ -1,0 +1,244 @@
+body{
+    margin: 0;
+}
+.container{
+    display: grid;
+    border-style: solid;
+    border: 2px;
+    grid-template-columns: 20% auto;
+    grid-template-rows: 15% auto;
+    height: 100vh;
+    font-family: Roboto;
+}
+.sidebar{
+    grid-column-start: 1;
+    grid-column-end:2;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    background-color: #0284c7;
+    color: white;
+    font-size: 20px;
+    padding: 10%;
+    /* font-weight: 500; */
+}
+.header{
+    display: grid;
+    grid-column-start: 2;
+    grid-column-end:3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    background-color: white;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 1fr 2fr;
+}
+.main-content{
+    grid-column-start: 2;
+    grid-column-end:3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    background-color: #e7e5e4;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+.sidebar-grid{
+    display: grid;
+    gap: 20px;
+    text-decoration: none;
+}
+.sidebar a{
+    color: white;
+    text-decoration: none;
+
+}
+.header-child1{
+    grid-column-start: 1;
+    grid-column-end:2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    display: inline-flex;
+    align-items: center;
+}
+.header-child2{
+    grid-column-start: 2;
+    grid-column-end:3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+.header-child3{
+    grid-column-start: 1;
+    grid-column-end:2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    align-items: center;
+
+}
+.header-child4{
+    grid-column-start: 2;
+    grid-column-end:3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    align-items: center;
+
+}
+.header-child2{
+    display: inline-flex;
+    column-gap: 50px;
+    justify-content: center;
+    align-items: center;
+}
+.fa-bell{
+    font-size: 170%;
+}
+.cat-image{
+    height: 30px;
+    text-align: center;
+    border-radius: 100%;
+}
+.cat-img{
+    text-align: center;
+}
+.search-bar{
+    width: 60%;
+    height: 20px;
+    border-radius: 5px;
+}
+.fa-magnifying-glass{
+    font-size: 30px;
+    padding-left: 20px;
+}
+.header-child1{
+    column-gap: 20px;
+}
+.header-child3{
+    display: inline-flex;
+    column-gap: 30px;
+}
+.cat-img2{
+    height: 60px;
+    width: auto;
+    padding-left: 20px;
+}
+.header-child4{
+    display: inline-flex;
+    justify-content: center;
+    gap: 80px;
+}
+.header-button{
+    font-size: 1rem;
+    border-radius: 20px;
+    background-color: #2563eb;
+    font-family: Roboto;
+    color: white;
+    border: none;
+    width: 80px;
+    height: 30px;
+}
+.projects-container{
+    display: grid;
+    border-color: black;
+    border-style: solid;
+    border: 1px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 40px 3fr 3fr 3fr;
+    gap: 50px;
+    padding: 10px 30px;
+}
+.advertising{
+    background-color: rgb(43, 243, 226);
+    display: grid;
+    height: auto;
+    padding: 5%;
+    justify-content: center;
+    /* gap: 2%; */
+}
+.project-header{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    
+}
+.project1{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    background-color: white;
+    display: grid;
+    border-radius: 5px;
+    padding: 10px;
+    border-left: 8px solid #fdba74;
+}
+.project2{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    border-radius: 5px;
+    display: grid;
+    border-radius: 5px;
+    padding: 10px;
+    border-left: 8px solid #fdba74;
+    background-color: white
+    
+
+}
+.project3{
+    border-radius: 5px;
+    display: grid;
+    border-radius: 5px;
+    padding: 10px;
+    border-left: 8px solid #fdba74;
+    background-color: white
+    
+}
+.project4{
+    border-radius: 5px;
+    display: grid;
+    border-radius: 5px;
+    padding: 10px;
+    border-left: 8px solid #fdba74;
+    background-color: white
+}
+.project5{
+    border-radius: 5px;
+    display: grid;
+    border-radius: 5px;
+    padding: 10px;
+    border-left: 8px solid #fdba74;
+    background-color: white
+}
+.project6{
+    border-radius: 5px;
+    display: grid;
+    border-radius: 5px;
+    padding: 10px;
+    border-left: 8px solid #fdba74;
+    background-color: white
+}
+.project-symbols{
+    font-size: 20px;
+    display: inline-flex;
+    justify-content: center;
+    gap: 30px;
+}
+.Announcements{
+    background-color: white;
+    height: 300px;
+    border-radius: 3%;
+    width: 400px;
+    display: grid;
+    justify-content: center;
+    text-align: center;
+}
+.Trending{
+    background-color: white;
+    height: 150px;
+    border-radius: 3%;
+    display: grid;
+    width: 400px;
+    font-size: 30px;
+    justify-content: center;
+}
+
+
